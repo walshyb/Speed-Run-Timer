@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E5AD861A7DB97000D6D609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5AD851A7DB97000D6D609 /* AppDelegate.m */; };
+		D0E5AD881A7DB97000D6D609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5AD871A7DB97000D6D609 /* main.m */; };
+		D0E5AD8A1A7DB97000D6D609 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E5AD891A7DB97000D6D609 /* Images.xcassets */; };
+		D0E5AD8D1A7DB97000D6D609 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E5AD8B1A7DB97000D6D609 /* MainMenu.xib */; };
+		D0E5AD991A7DB97000D6D609 /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5AD981A7DB97000D6D609 /* TimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E5AD931A7DB97000D6D609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E5AD771A7DB97000D6D609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E5AD7E1A7DB97000D6D609;
+			remoteInfo = Timer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E5AD7F1A7DB97000D6D609 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E5AD831A7DB97000D6D609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E5AD841A7DB97000D6D609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0E5AD851A7DB97000D6D609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0E5AD871A7DB97000D6D609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E5AD891A7DB97000D6D609 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0E5AD8C1A7DB97000D6D609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0E5AD921A7DB97000D6D609 /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E5AD971A7DB97000D6D609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E5AD981A7DB97000D6D609 /* TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E5AD7C1A7DB97000D6D609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E5AD8F1A7DB97000D6D609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E5AD761A7DB97000D6D609 = {
+			isa = PBXGroup;
+			children = (
+				D0E5AD811A7DB97000D6D609 /* Timer */,
+				D0E5AD951A7DB97000D6D609 /* TimerTests */,
+				D0E5AD801A7DB97000D6D609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E5AD801A7DB97000D6D609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5AD7F1A7DB97000D6D609 /* Timer.app */,
+				D0E5AD921A7DB97000D6D609 /* TimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E5AD811A7DB97000D6D609 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5AD841A7DB97000D6D609 /* AppDelegate.h */,
+				D0E5AD851A7DB97000D6D609 /* AppDelegate.m */,
+				D0E5AD891A7DB97000D6D609 /* Images.xcassets */,
+				D0E5AD8B1A7DB97000D6D609 /* MainMenu.xib */,
+				D0E5AD821A7DB97000D6D609 /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		D0E5AD821A7DB97000D6D609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5AD831A7DB97000D6D609 /* Info.plist */,
+				D0E5AD871A7DB97000D6D609 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E5AD951A7DB97000D6D609 /* TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5AD981A7DB97000D6D609 /* TimerTests.m */,
+				D0E5AD961A7DB97000D6D609 /* Supporting Files */,
+			);
+			path = TimerTests;
+			sourceTree = "<group>";
+		};
+		D0E5AD961A7DB97000D6D609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5AD971A7DB97000D6D609 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E5AD7E1A7DB97000D6D609 /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E5AD9C1A7DB97000D6D609 /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				D0E5AD7B1A7DB97000D6D609 /* Sources */,
+				D0E5AD7C1A7DB97000D6D609 /* Frameworks */,
+				D0E5AD7D1A7DB97000D6D609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productName = Timer;
+			productReference = D0E5AD7F1A7DB97000D6D609 /* Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E5AD911A7DB97000D6D609 /* TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E5AD9F1A7DB97000D6D609 /* Build configuration list for PBXNativeTarget "TimerTests" */;
+			buildPhases = (
+				D0E5AD8E1A7DB97000D6D609 /* Sources */,
+				D0E5AD8F1A7DB97000D6D609 /* Frameworks */,
+				D0E5AD901A7DB97000D6D609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E5AD941A7DB97000D6D609 /* PBXTargetDependency */,
+			);
+			name = TimerTests;
+			productName = TimerTests;
+			productReference = D0E5AD921A7DB97000D6D609 /* TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E5AD771A7DB97000D6D609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brandon Walsh";
+				TargetAttributes = {
+					D0E5AD7E1A7DB97000D6D609 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D0E5AD911A7DB97000D6D609 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D0E5AD7E1A7DB97000D6D609;
+					};
+				};
+			};
+			buildConfigurationList = D0E5AD7A1A7DB97000D6D609 /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E5AD761A7DB97000D6D609;
+			productRefGroup = D0E5AD801A7DB97000D6D609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E5AD7E1A7DB97000D6D609 /* Timer */,
+				D0E5AD911A7DB97000D6D609 /* TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E5AD7D1A7DB97000D6D609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E5AD8A1A7DB97000D6D609 /* Images.xcassets in Resources */,
+				D0E5AD8D1A7DB97000D6D609 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E5AD901A7DB97000D6D609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E5AD7B1A7DB97000D6D609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E5AD881A7DB97000D6D609 /* main.m in Sources */,
+				D0E5AD861A7DB97000D6D609 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E5AD8E1A7DB97000D6D609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E5AD991A7DB97000D6D609 /* TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E5AD941A7DB97000D6D609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E5AD7E1A7DB97000D6D609 /* Timer */;
+			targetProxy = D0E5AD931A7DB97000D6D609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E5AD8B1A7DB97000D6D609 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E5AD8C1A7DB97000D6D609 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E5AD9A1A7DB97000D6D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0E5AD9B1A7DB97000D6D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0E5AD9D1A7DB97000D6D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0E5AD9E1A7DB97000D6D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0E5ADA01A7DB97000D6D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer.app/Contents/MacOS/Timer";
+			};
+			name = Debug;
+		};
+		D0E5ADA11A7DB97000D6D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer.app/Contents/MacOS/Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E5AD7A1A7DB97000D6D609 /* Build configuration list for PBXProject "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E5AD9A1A7DB97000D6D609 /* Debug */,
+				D0E5AD9B1A7DB97000D6D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E5AD9C1A7DB97000D6D609 /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E5AD9D1A7DB97000D6D609 /* Debug */,
+				D0E5AD9E1A7DB97000D6D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E5AD9F1A7DB97000D6D609 /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E5ADA01A7DB97000D6D609 /* Debug */,
+				D0E5ADA11A7DB97000D6D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E5AD771A7DB97000D6D609 /* Project object */;
+}
