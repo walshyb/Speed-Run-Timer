@@ -67,20 +67,26 @@ NSTimeInterval curTime;
 }
 
 - (IBAction)startButtonClick:(id)sender {
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
-    if(startTime == 0)
+    if(!timer.valid)
     {
-        startTime = [NSDate timeIntervalSinceReferenceDate];
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
+        if(startTime == 0)
+        {
+            startTime = [NSDate timeIntervalSinceReferenceDate];
+        }
+        else
+        {
+            startTime = curTime;
+        }
     }
-    else
-    {
-        startTime = curTime;
-    }
+    
+    
 }
 
 - (IBAction)stopButtonClick:(id)sender {
     curTime = [NSDate timeIntervalSinceReferenceDate];
     [timer invalidate];
+    timer = nil;
     startTime = curTime;
 }
 

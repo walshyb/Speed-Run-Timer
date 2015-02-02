@@ -386,14 +386,14 @@
         <window title="Timer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="0L5-qQ-dF8">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="637" height="317"/>
+            <rect key="contentRect" x="335" y="390" width="611" height="279"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
             <view key="contentView" id="nnE-uK-cSz">
-                <rect key="frame" x="0.0" y="0.0" width="637" height="317"/>
+                <rect key="frame" x="0.0" y="0.0" width="611" height="279"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8lX-K5-vjj">
-                        <rect key="frame" x="0.0" y="86" width="637" height="200"/>
+                        <rect key="frame" x="0.0" y="76" width="611" height="172"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" title="00:00:00" id="4G6-r1-d5q">
                             <font key="font" size="134" name="LucidaGrande"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -401,7 +401,7 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ShS-s4-lxA">
-                        <rect key="frame" x="265" y="26" width="106" height="32"/>
+                        <rect key="frame" x="242" y="8" width="106" height="32"/>
                         <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Hh-Qq-gyh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -410,18 +410,8 @@
                             <action selector="startButtonClick:" target="Voe-Tx-rLC" id="v5g-Pt-8e7"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pol-Rc-oVf">
-                        <rect key="frame" x="517" y="26" width="106" height="32"/>
-                        <buttonCell key="cell" type="push" title="Stop" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0F8-uQ-IRp">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="stopButtonClick:" target="Voe-Tx-rLC" id="qNh-Zj-NIA"/>
-                        </connections>
-                    </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7P-1V-8xK">
-                        <rect key="frame" x="14" y="26" width="106" height="32"/>
+                        <rect key="frame" x="14" y="8" width="106" height="32"/>
                         <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ySf-OC-xx9">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -430,9 +420,19 @@
                             <action selector="resetButtonClick:" target="Voe-Tx-rLC" id="j56-TB-2sR"/>
                         </connections>
                     </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pol-Rc-oVf">
+                        <rect key="frame" x="491" y="13" width="106" height="32"/>
+                        <buttonCell key="cell" type="push" title="Stop" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0F8-uQ-IRp">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="stopButtonClick:" target="Voe-Tx-rLC" id="qNh-Zj-NIA"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="303.5" y="305.5"/>
+            <point key="canvasLocation" x="290.5" y="286.5"/>
         </window>
     </objects>
 </document>
